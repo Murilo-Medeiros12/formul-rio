@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.divpai {
+    display: flex;
+}
+
+.imgem {
+    background-color: rgb(3, 1, 50);
+    width: 50%;
+    height: 750px;
+    padding-top: 60px;
+}
+
+.divfilha {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    flex-direction: column;
+    width: 50%;
+}
+
+.divfilha input{
+    border-radius: 5px;
+    padding: 8px;
+    padding-right: 250px;
+    border-color: #b1b1b1;
+    margin: 5px;
+}
+
+.botaoentrar {
+    background-color: #007BFF;
+    border: none;
+    color: white;
+    padding: 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+span {
+    color: #007BFF;
+}
+
